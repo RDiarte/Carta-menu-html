@@ -1,0 +1,20 @@
+header {
+  background-image: url(https://tofuu.getjusto.com/orioneat-prod/Kv2jWbR4R833CLNPv-_MG_0201.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px;
+  border: 5px solid darkblue;
+  padding: 20px;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+  background-image: url(https://i.pinimg.com/originals/c0/dd/6f/c0dd6f41d99555a95b83c510ec6dd3d2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: purple;
+  border-radius: 10px;
+}
