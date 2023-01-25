@@ -1,4 +1,19 @@
-header {
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  min-height: calc(100% - 4rem);
+}
+.footer {
+  height: 4rem;
+  background-color: #e2e2e2;
+}
+
+#header {
   background-image: url(https://tofuu.getjusto.com/orioneat-prod/Kv2jWbR4R833CLNPv-_MG_0201.png);
   background-size: cover;
   background-position: center;
@@ -34,21 +49,10 @@ header {
   display: inline-block;
   background-color: #f3f3f3;
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   border-radius: 10px;
   margin-bottom: 50px;
   box-shadow: 0px 2px 5px #ddd;
-}
-
-@media screen and (min-width: 768px) {
-  .precio-col {
-    width: 32%;
-    float: left;
-    margin-right: 2%;
-  }
-  .precio-col:last-child {
-    margin-right: 0;
-  }
 }
 
 .precio-col-header {
@@ -94,60 +98,85 @@ header {
 }
 
 .precio-col-features p:first-child,
-.precio-col-features p:last-child {
+#tabla-promo {
+  display: inline-table;
+  width: 100%;
+  margin-top: 50px;
 }
 
-/*
-a tener en cuenta
-#top {
-  position: relative;
-
-  width: 1000px;
-  height: 192px;
-  background: #888;
-}
-#top ul {
-  width: 1010px;
-  height: 192px;
-  background: rgba(255, 0, 0, 0.5);
+.promo-col {
+  display: inline-table;
+  background-color: #f3f3f3;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  box-shadow: 0px 2px 5px #ddd;
 }
 
-#top ul li {
+.promo-col-header {
+  background-color: #333;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.promo-col-header h3 {
+  color: #f3f3f3;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.promo-col-header p {
+  text-align: center;
+  color: #f3f3f3;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+#asideizq {
   float: left;
-  width: 326px;
-  height: 192px;
-  background: black;
-  margin-right: 10px;
+  margin-right: 250px;
+  width: 15%;
+  height: 1000px;
+  background: #333;
 }
 
-.color {
-  color: lightslategray;
-  text-align: right;
-  font-size: 2cm;
+#asideder {
+  float: right;
+  width: 15%;
+  height: 1000px;
+  background: #333;
 }
 
-.boxes {
-  display: flex;
-  flex-direction: row;
+
 }
 
-.boxli {
+.promo-col-header h3 {
+  color: #f3f3f3;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.promo-col-header p {
+  text-align: center;
+  color: #f3f3f3;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+#asideizq {
   float: left;
-  width: 326px;
-  height: 215px;
-  background: rgb(62, 156, 163);
-  margin-right: 10px;
+  width: 15%;
+  background: #333;
 }
 
-.boxes1 {
-  display: flex;
-  flex-direction: column-reverse;
+#asideder {
+  float: right;
+  width: 15%;
+  background: #333;
 }
-
-.boxli1 {
-  float: inline-end;
-  width: 26px;
-  height: 15px;
-  background: rgb(26, 51, 53);
-  margin-right: 10px;
-}*/
