@@ -140,18 +140,15 @@ body {
   float: left;
   margin-right: 250px;
   width: 15%;
-  height: 1000px;
+  height: 1200px;
   background: #333;
 }
 
 #asideder {
   float: right;
   width: 15%;
-  height: 1000px;
+  height: 1200px;
   background: #333;
-}
-
-
 }
 
 .promo-col-header h3 {
